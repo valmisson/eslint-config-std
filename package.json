@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-std",
+  "version": "0.1.0",
+  "description": "ESlint config of JavaScript Standard Style",
+  "author": "Valmisson Grizorte <valmisson.github.io>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "src",
+    "types",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "17.13.1",
+    "eslint-plugin-promise": "7.1.0"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valmisson/eslint-config-std.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valmisson/eslint-config-std/issues"
+  },
+  "homepage": "https://github.com/valmisson/eslint-config-std#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-rules",
+    "eslint-plugin",
+    "eslint-config-standard",
+    "javascript",
+    "linter",
+    "standard",
+    "style-guide"
+  ],
+  "engines": {
+    "node": ">=18.20.4"
+  }
+}
